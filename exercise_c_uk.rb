@@ -32,6 +32,7 @@ end
 total_pop = 0
 for country in united_kingdom
   total_pop += country[:population]
+  index_pop += 1
 end
 
 p total_pop
